@@ -20,5 +20,5 @@ st.divider()
 
 st.markdown("<p style='text-align: center'> To ensure safety among all citizens of Earth and nearby systems, HeroTech Innovations takes pride in having a publicly available dataset for all registered powered persons.</h2>", unsafe_allow_html=True)
 
-data = pd.read_csv(r"C:\Users\layla\OneDrive\Documents\GitHub\superheroProject\superheroes_nlp_dataset.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/mutatedcode/superheroProject/main/superheroes_nlp_dataset.csv")
 st.write(data)
