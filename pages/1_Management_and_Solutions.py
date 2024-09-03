@@ -6,7 +6,7 @@ from pandasai.llm import OpenAI
 from ai import get_api_key
 
 # Get API key from environment or another source
-api_key = get_api_key()
+api_key = st.secrets['api_key']
 
 # Page background and style
 page_bg_img = """
