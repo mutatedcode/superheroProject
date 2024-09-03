@@ -1,5 +1,5 @@
 streamlit
 os
-pandas
-pandasai
+pandas==1.5.3
+pandasai==2.2.14
 pandasai.llm
