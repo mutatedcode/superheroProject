@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 from pandasai import SmartDataframe
 from pandasai.llm import OpenAI
-from ai import get_api_key
 
 page_bg_img = """
 <style>
