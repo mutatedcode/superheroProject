@@ -35,3 +35,5 @@ st.divider()
 
 st.markdown("<h1 style='text-align: center'> Our Products </h1>", unsafe_allow_html=True)
 
+st.divider()
+
